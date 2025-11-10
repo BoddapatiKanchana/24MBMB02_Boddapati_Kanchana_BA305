@@ -1,4 +1,4 @@
-# 🎵 **TuneScope: Big Data Analytics on Spotify**
+# **TuneScope: Big Data Analytics on Spotify**
 
 > **A Big Data Analytics Capstone Project**
 > *School of Management Studies, University of Hyderabad*
@@ -8,7 +8,7 @@
 
 ---
 
-## 🧭 **Project Overview**
+## **Project Overview**
 
 **TuneScope** is a Big Data Analytics project that explores large-scale Spotify and lyrics datasets to uncover **patterns in song popularity, lyrical sentiment, artist performance, and genre behavior**.
 The project integrates **PySpark**, **Databricks**, and **machine learning models** to analyze both audio and textual data, visualized through an interactive **Databricks Dashboard** called **TuneScope 2.0**.
@@ -17,7 +17,7 @@ This repository contains all source code, data pipeline notebooks, model files, 
 
 ---
 
-## 🎯 **Objectives**
+## **Objectives**
 
 * To build a **scalable Big Data pipeline** using Databricks and PySpark.
 * To integrate **audio and lyrical data** for multi-dimensional analysis.
@@ -27,7 +27,7 @@ This repository contains all source code, data pipeline notebooks, model files, 
 
 ---
 
-## 🧩 **Project Architecture**
+## **Project Architecture**
 
 The project follows a **Bronze–Silver–Gold data pipeline** architecture, enabling efficient and modular data processing:
 
@@ -39,7 +39,7 @@ The project follows a **Bronze–Silver–Gold data pipeline** architecture, ena
 
 ---
 
-## ⚙️ **Technologies & Tools Used**
+## **Technologies & Tools Used**
 
 | Category            | Technology / Tool                   | Purpose                              |
 | ------------------- | ----------------------------------- | ------------------------------------ |
@@ -52,7 +52,7 @@ The project follows a **Bronze–Silver–Gold data pipeline** architecture, ena
 
 ---
 
-## 🧠 **Use Cases Implemented**
+## **Use Cases Implemented**
 
 | No.   | Use Case                     | Method                            | Visualization  | Key Insight                                   |
 | ----- | ---------------------------- | --------------------------------- | -------------- | --------------------------------------------- |
@@ -64,7 +64,7 @@ The project follows a **Bronze–Silver–Gold data pipeline** architecture, ena
 
 ---
 
-## 📊 **Dashboard Overview**
+## **Dashboard Overview**
 
 **Dashboard Name:** TuneScope: Big Data Analytics on Spotify
 **Platform:** Databricks Visualization Interface
@@ -76,11 +76,11 @@ The dashboard consolidates all five use cases into an interactive visual format 
 * Horizontal bar for artist popularity
 * Scatter plot for clustering results
 
-📁 *Refer to:* `Dashboard.html` (exported from Databricks)
+*Refer to:* `Dashboard.html` (exported from Databricks)
 
 ---
 
-## 🧱 **Repository Structure**
+## **Repository Structure**
 
 ```
 TuneScope_Project/
@@ -105,7 +105,7 @@ TuneScope_Project/
 ---
 
 
-## 🧩 **Limitations**
+## **Limitations**
 
 * Databricks CE memory limitations (2 GB).
 * Dataset restricted to 10,000 songs.
@@ -114,7 +114,7 @@ TuneScope_Project/
 
 ---
 
-## 🔮 **Future Enhancements**
+## **Future Enhancements**
 
 * Integrate **real-time streaming** using Apache Kafka + Spark Streaming.
 * Replace TextBlob with **Transformer-based NLP models (BERT, RoBERTa)**.
@@ -124,7 +124,7 @@ TuneScope_Project/
 
 ---
 
-## 🏁 **Conclusion**
+## **Conclusion**
 
 The *TuneScope* project successfully demonstrates how **Big Data Analytics** can be applied to the **media and entertainment industry** to derive meaningful insights from music data.
 By combining **audio and lyrical features**, the system reveals patterns in popularity, sentiment, and genre behavior.
